@@ -1,0 +1,75 @@
+
+/*Global Styles*/
+
+body {
+	background: #f1f4f7;
+	padding-top: 50px;
+	color: #5f6468; 
+	font-family: "Roboto", sans-serif;
+
+}
+
+a, a:hover, a:focus {
+	color: #e74c3c;
+}
+
+
+/* Update Profile Tabs*/
+
+
+.navbar-nav li a{
+	color: #e74c3c !important;
+}
+
+
+
+/* Sidebar white background*/
+
+@media (min-width: 768px) {
+		.sidebar {
+		display: block;
+  		position: fixed;
+		top: 50px;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		display: block;
+		margin: 0;
+		padding: 30px;
+		overflow-x: hidden;
+		overflow-y: auto; 
+		background-color: #fff;
+		box-shadow: 1px 0px 10px rgba(0, 0, 0, .05);
+	}
+	
+}
+
+
+.sidebar ul.nav .active a, .sidebar ul.nav li.parent a.active,
+.sidebar ul.nav .active > a:hover, .sidebar ul.nav li.parent a.active:hover,
+.sidebar ul.nav .active > a:focus, .sidebar ul.nav li.parent a.active:focus {
+	color: #fff;
+	background-color: #e74c3c;
+}*/
+
+
+.sidebar ul.nav ul.children li a {
+	height: 40px;
+	background: #f9f9f9;
+	color: #30a5ff!important;
+}
+
+.sidebar ul.nav li.current a {
+	background-color: #30a5ff;
+	color: #fff!important;
+}
+
+
+/* sidebar Icons style*/
+
+.sidebar .glyph, .user-menu .glyph {
+	height: 16px;
+	width: 16px;
+	margin: 0 10px 0 0;
+	stroke-width: 3px;
+}
